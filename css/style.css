@@ -1,0 +1,26 @@
+body{
+    font: 20px Arial, sans-serif;
+}
+
+
+.navbar {
+    background-color: black;
+}
+
+.branco{
+    color: white;
+}
+
+.margin{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.formCadastro{
+    background-color: aqua;
+}
+
+.rodape{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
