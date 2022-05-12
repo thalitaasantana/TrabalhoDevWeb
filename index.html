@@ -10,15 +10,14 @@
   </head>
 
   <body>
-        <!-- <nav class="navbar navbar-expand-lg"> -->
-        <nav class="navbar navbar-light bg-faded" style="background-color: rgb(6, 214, 145); border-color: #000;">
+        <nav class="navbar navbar-light bg-faded" style="background-color: rgb(0, 0, 0); border-color: #000;">
             <a class="navbar-brand" href="#">
                 <img src="imagens/download.png" width="100" height="100">
             </a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#cadastroCliente">Castro do Cliente</a>
+                        <a class="nav-link" href="#cadastroCliente">Cadastro do Cliente</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#cadastroFornecedor">Cadastro do Fornecedor</a>
@@ -39,9 +38,63 @@
             </div>
         </nav>
 
-        <section id="formCadstro">
-            <div class="container-fluid formCadstro text-center margin">
-
+        <section id="formCadstroCliente">
+            <div class="container-fluid formCadstroCliente">
+                <form>
+                    <div class="container">
+                        <div class="row">
+                            <div class="mb-auto col-lg-3 margin">
+                                <label for="idCliente" class="form-label">ID</label>
+                                <input class="form-control" id="inputID">
+                            </div>
+                            <div class="mb-auto col-lg-6 margin">
+                                <label for="nomeCliente" class="form-label">Nome</label>
+                                <input class="form-control" id="inputNome">
+                            </div>
+                            <div class="mb-auto col-lg-3 margin">
+                                <label for="cpfCliente" class="form-label">CPF</label>
+                                <input class="form-control" id="inputCPF">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="mb-auto col-lg-6 margin">
+                                <label for="endCliente" class="form-label">Endereço</label>
+                                <input class="form-control" id="inputEndereco">
+                            </div>
+                            <div class="mb-auto col-lg-3 margin">
+                                <label for="bairroCliente" class="form-label">Bairro</label>
+                                <input class="form-control" id="inputBairro">
+                            </div>
+                            <div class="mb-auto col-lg-3 margin">
+                                <label for="cidadeCliente" class="form-label">Cidade</label>
+                                <input class="form-control" id="inputCidade">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="mb-auto col-lg-2 margin">
+                                <label  for="ufCliente">UF</label>
+                                <select class="form-select" id="ufLista">
+                                  <option selected>Selecione um estado</option>
+                                  <option value="1">RJ</option>
+                                  <option value="2">SP</option>
+                                  <option value="3">MG</option>
+                                </select>
+                            </div>
+                            <div class="mb-auto col-lg-2 margin">
+                                <label for="cepCliente" class="form-label">CEP</label>
+                                <input class="form-control" id="inputCep">
+                            </div>
+                            <div class="mb-auto col-lg-2 margin">
+                                <label for="telefoneCliente" class="form-label">Telefone</label>
+                                <input class="form-control" id="inputTelefone">
+                            </div>
+                            <div class="mb-auto col-lg-6 margin">
+                                <label for="emailCliente" class="form-label">Email</label>
+                                <input class="form-control" id="inputEmail">
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </section>
       

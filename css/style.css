@@ -2,22 +2,22 @@ body{
     font: 20px Arial, sans-serif;
 }
 
-
-.navbar {
-    background-color: rgb(27, 147, 194);
-}
-
 .branco{
     color: white;
 }
 
 .margin{
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+}
+
+.marginLeft{
+    padding-left: 30px;
 }
 
 .formCadastro{
     background-color: aqua;
+    padding-left: 30px;
 }
 
 .rodape{
