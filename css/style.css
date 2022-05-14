@@ -2,10 +2,6 @@ body{
     font: 20px Arial, sans-serif;
 }
 
-.branco{
-    color: white;
-}
-
 .margin{
     padding-top: 20px;
     padding-bottom: 30px;
@@ -13,14 +9,4 @@ body{
 
 .marginLeft{
     padding-left: 30px;
-}
-
-.formCadastro{
-    background-color: aqua;
-    padding-left: 30px;
-}
-
-.rodape{
-    background-color: rgb(0, 0, 0);
-    color: white;
 }
