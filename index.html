@@ -15,33 +15,11 @@
                 <a class="navbar-brand" href="#">
                     <img src="imagens/download.png" width="100" height="100">
                 </a>
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#cadastroCliente">Cadastro do Cliente</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#cadastroFornecedor">Cadastro do Fornecedor</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#cadastroProduto">Cadastro de um produto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#cadastroFuncionario">Cadastro de um Funcionario</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#cadastroCompra">Cadastro de uma compra</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#cadastroVenda">Cadastro de uma venda</a>
-                        </li>
-                    </ul>
-                </div>
             </nav>
         </header>
 
         <section id="formCadstroCliente">
-            <h2 style="text-align: center;">Cadastro de Cliente</h2>
+            <h2 style="text-align: center;" class="margin">Cadastro de Cliente</h2>
             <div class="container-fluid formCadstroCliente">
                 <form>
                     <div class="container">
@@ -52,7 +30,7 @@
                             </div>
                             <div class="mb-auto col-lg-3 margin">
                                 <label for="cpfCliente" class="form-label">CPF</label>
-                                <input class="form-control" id="inputCPF">
+                                <input class="form-control" id="inputCPF" placeholder="______.______.______-____">
                             </div>
                             <div class="mb-auto col-lg-3 margin">
                                 <label for="idCliente" class="form-label">ID</label>
@@ -78,22 +56,47 @@
                                 <label  for="ufCliente">UF</label>
                                 <select class="form-select" id="ufLista">
                                   <option selected>Selecione um estado</option>
-                                  <option value="1">RJ</option>
-                                  <option value="2">SP</option>
-                                  <option value="3">MG</option>
+                                  <option value="1">AC</option>
+                                  <option value="2">AL</option>
+                                  <option value="3">AP</option>
+                                  <option value="4">AM</option>
+                                  <option value="5">BA</option>
+                                  <option value="6">CE</option>
+                                  <option value="7">DF</option>
+                                  <option value="8">ES</option>
+                                  <option value="9">GO</option>
+                                  <option value="10">MA</option>
+                                  <option value="17">MT</option>
+                                  <option value="12">MS</option>
+                                  <option value="13">MG</option>
+                                  <option value="14">PA</option>
+                                  <option value="15">PB</option>
+                                  <option value="16">PR</option>
+                                  <option value="17">PE</option>
+                                  <option value="18">PI</option>
+                                  <option value="19">RJ</option>
+                                  <option value="20">RN</option>
+                                  <option value="21">RS</option>
+                                  <option value="22">RO</option>
+                                  <option value="23">RR</option>
+                                  <option value="24">SC</option>
+                                  <option value="25">SP</option>
+                                  <option value="26">SE</option>
+                                  <option value="27">TO</option>
+                                  
                                 </select>
                             </div>
                             <div class="mb-auto col-lg-2 margin">
                                 <label for="cepCliente" class="form-label">CEP</label>
-                                <input class="form-control" id="inputCep">
+                                <input class="form-control" id="inputCep" placeholder="__________-______">
                             </div>
                             <div class="mb-auto col-lg-2 margin">
                                 <label for="telefoneCliente" class="form-label">Telefone</label>
-                                <input class="form-control" id="inputTelefone">
+                                <input class="form-control" id="inputTelefone" placeholder="(____) __________-________">
                             </div>
                             <div class="mb-auto col-lg-6 margin">
                                 <label for="emailCliente" class="form-label">Email</label>
-                                <input class="form-control" id="inputEmail"  placeholder="name@example.com">
+                                <input class="form-control" id="inputEmail"  placeholder="nome@exemplo.com">
                             </div>
                             <div class="mx-auto" style="width: 200px;">
                                 <button type="submit" class="btn btn-primary">Cadastrar Cliente</button>
