@@ -1,109 +1,107 @@
 <!DOCTYPE html>
-  <html lang="pt-br">
-  
-  <head>
+<html lang="pt-br">
+<head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="\css\style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
     <title>Cadastro do Cliente</title>
-  </head>
+</head>
 
-  <body>
-      <header>
-            <nav class="navbar navbar-light bg-faded" style="background-color: rgb(0, 0, 0); border-color: #000;">
-                <a class="navbar-brand" href="#">
-                    <img src="imagens/download.png" width="100" height="100">
-                </a>
-            </nav>
-        </header>
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-faded" style="background-color: rgb(0, 0, 0); border-color: #000;">
+            <a class="navbar-brand" href="#">
+                <img src="imagens/download.png" width="100" height="100">
+            </a>
+        </nav>
+    </header>
 
-        <section id="formCadstroCliente">
-            <h2 style="text-align: center;" class="margin">Cadastro de Cliente</h2>
-            <div class="container-fluid formCadstroCliente">
-                <form>
-                    <div class="container">
-                        <div class="row">
-                            <div class="mb-auto col-lg-6 margin">
-                                <label for="nomeCliente" class="form-label">Nome</label>
-                                <input class="form-control" id="inputNome">
-                            </div>
-                            <div class="mb-auto col-lg-3 margin">
-                                <label for="cpfCliente" class="form-label">CPF</label>
-                                <input class="form-control" id="inputCPF" placeholder="______.______.______-____">
-                            </div>
-                            <div class="mb-auto col-lg-3 margin">
-                                <label for="idCliente" class="form-label">ID</label>
-                                <input class="form-control" id="inputID">
-                            </div>
-                            <div class="mb-auto col-lg-6 margin">
-                                <label for="endCliente" class="form-label">Endereço</label>
-                                <input class="form-control" id="inputEndereco">
-                            </div>
-                            <div class="mb-auto col-lg-3 margin">
-                                <label for="bairroCliente" class="form-label">Bairro</label>
-                                <input class="form-control" id="inputBairro">
-                            </div>
-                            <div class="mb-auto col-lg-3 margin">
-                                <label for="cidadeCliente" class="form-label">Cidade</label>
-                                <input class="form-control" id="inputCidade">
-                            </div>
-                            <div class="mb-auto col-lg-2 margin">
-                                <label  for="ufCliente">UF</label>
-                                <select class="form-select" id="ufLista">
-                                  <option selected>Selecione um estado</option>
-                                  <option value="1">AC</option>
-                                  <option value="2">AL</option>
-                                  <option value="3">AP</option>
-                                  <option value="4">AM</option>
-                                  <option value="5">BA</option>
-                                  <option value="6">CE</option>
-                                  <option value="7">DF</option>
-                                  <option value="8">ES</option>
-                                  <option value="9">GO</option>
-                                  <option value="10">MA</option>
-                                  <option value="17">MT</option>
-                                  <option value="12">MS</option>
-                                  <option value="13">MG</option>
-                                  <option value="14">PA</option>
-                                  <option value="15">PB</option>
-                                  <option value="16">PR</option>
-                                  <option value="17">PE</option>
-                                  <option value="18">PI</option>
-                                  <option value="19">RJ</option>
-                                  <option value="20">RN</option>
-                                  <option value="21">RS</option>
-                                  <option value="22">RO</option>
-                                  <option value="23">RR</option>
-                                  <option value="24">SC</option>
-                                  <option value="25">SP</option>
-                                  <option value="26">SE</option>
-                                  <option value="27">TO</option>  
-                                </select>
-                            </div>
-                            <div class="mb-auto col-lg-2 margin">
-                                <label for="cepCliente" class="form-label">CEP</label>
-                                <input class="form-control" id="inputCep" placeholder="__________-______">
-                            </div>
-                            <div class="mb-auto col-lg-2 margin">
-                                <label for="telefoneCliente" class="form-label">Telefone</label>
-                                <input class="form-control" id="inputTelefone" placeholder="(____) __________-________">
-                            </div>
-                            <div class="mb-auto col-lg-6 margin">
-                                <label for="emailCliente" class="form-label">Email</label>
-                                <input class="form-control" id="inputEmail"  placeholder="nome@exemplo.com">
-                            </div>
+    <section id="formCadstroCliente">
+        <h2 style="text-align: center;" class="margin">Cadastro de Cliente</h2>
+        <div class="container-fluid formCadstroCliente">
+            <form>
+                <div class="container">
+                    <div class="row">
+                        <div class="mb-auto col-lg-6 margin">
+                            <label for="nomeCliente" class="form-label">Nome</label>
+                            <input class="form-control" id="inputNome">
                         </div>
-                        <div class="row">
-                            <div class="mx-auto margin" style="width: 200px;">
-                                <button type="submit" class="btn btn-primary">Cadastrar Cliente</button>
-                            </div>
+                        <div class="mb-auto col-lg-3 margin">
+                            <label for="cpfCliente" class="form-label">CPF</label>
+                            <input class="form-control" id="inputCPF" placeholder="______.______.______-____">
+                        </div>
+                        <div class="mb-auto col-lg-3 margin">
+                            <label for="idCliente" class="form-label">ID</label>
+                            <input class="form-control" id="inputID">
+                        </div>
+                        <div class="mb-auto col-lg-6 margin">
+                            <label for="endCliente" class="form-label">Endereço</label>
+                            <input class="form-control" id="inputEndereco">
+                        </div>
+                        <div class="mb-auto col-lg-3 margin">
+                            <label for="bairroCliente" class="form-label">Bairro</label>
+                            <input class="form-control" id="inputBairro">
+                        </div>
+                        <div class="mb-auto col-lg-3 margin">
+                            <label for="cidadeCliente" class="form-label">Cidade</label>
+                            <input class="form-control" id="inputCidade">
+                        </div>
+                        <div class="mb-auto col-lg-2 margin">
+                            <label  for="ufCliente">UF</label>
+                            <select class="form-select" id="ufLista">
+                                <option selected>Selecione um estado</option>
+                                <option value="1">AC</option>
+                                <option value="2">AL</option>
+                                <option value="3">AP</option>
+                                <option value="4">AM</option>
+                                <option value="5">BA</option>
+                                <option value="6">CE</option>
+                                <option value="7">DF</option>
+                                <option value="8">ES</option>
+                                <option value="9">GO</option>
+                                <option value="10">MA</option>
+                                <option value="17">MT</option>
+                                <option value="12">MS</option>
+                                <option value="13">MG</option>
+                                <option value="14">PA</option>
+                                <option value="15">PB</option>
+                                <option value="16">PR</option>
+                                <option value="17">PE</option>
+                                <option value="18">PI</option>
+                                <option value="19">RJ</option>
+                                <option value="20">RN</option>
+                                <option value="21">RS</option>
+                                <option value="22">RO</option>
+                                <option value="23">RR</option>
+                                <option value="24">SC</option>
+                                <option value="25">SP</option>
+                                <option value="26">SE</option>
+                                <option value="27">TO</option>  
+                            </select>
+                        </div>
+                        <div class="mb-auto col-lg-2 margin">
+                            <label for="cepCliente" class="form-label">CEP</label>
+                            <input class="form-control" id="inputCep" placeholder="__________-______">
+                        </div>
+                        <div class="mb-auto col-lg-2 margin">
+                            <label for="telefoneCliente" class="form-label">Telefone</label>
+                            <input class="form-control" id="inputTelefone" placeholder="(____) __________-________">
+                        </div>
+                        <div class="mb-auto col-lg-6 margin">
+                            <label for="emailCliente" class="form-label">Email</label>
+                            <input class="form-control" id="inputEmail"  placeholder="nome@exemplo.com">
                         </div>
                     </div>
-                </form>
-            </div>
-        </section>
-      
-  </body>
+                    <div class="row">
+                        <div class="mx-auto margin" style="width: 200px;">
+                            <button type="submit" class="btn btn-primary">Cadastrar Cliente</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
 
 </html>
